@@ -20,8 +20,6 @@ var assembly = typeof(Program).Assembly;
 
 builder.Services.AddMediatR(config => config.RegisterServicesFromAssembly(assembly));
 
-builder.Services.AddCarter();
-
 builder.Services.AddValidatorsFromAssembly(assembly);
 
 var app = builder.Build();

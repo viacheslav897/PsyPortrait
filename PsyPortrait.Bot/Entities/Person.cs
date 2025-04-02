@@ -2,16 +2,16 @@
 
 public sealed class Person
 {
-    public Person(DateOnly birthDay)
+    public Person(DateOnly dateOfBirth)
     {
         Id = Guid.NewGuid();
-        BirthDay = birthDay;
+        DateOfBirth = dateOfBirth;
         CalculatePositions();
     }
 
     public Guid Id { get; private set; }
 
-    private DateOnly BirthDay { get; }
+    private DateOnly DateOfBirth { get; }
 
     public Card FirstPosition { get; private set; }
     public Card SecondPosition { get; private set; }
@@ -24,9 +24,9 @@ public sealed class Person
     {
         const int overflow = 22;
 
-        int day = BirthDay.Day;
-        int month = BirthDay.Month;
-        int[] year = BirthDay.Year.ToString()
+        int day = DateOfBirth.Day;
+        int month = DateOfBirth.Month;
+        int[] year = DateOfBirth.Year.ToString()
             .Select(digit => int.Parse(digit.ToString()))
             .ToArray();
 
