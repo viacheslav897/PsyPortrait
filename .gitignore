@@ -7,6 +7,8 @@ bin/
 obj/
 **/bin/
 **/obj/
+PsyPortrait.Bot/bin
+PsyPortrait.Bot/obj
 
 # Stylecop
 /**/stylecop.*
