@@ -1,4 +1,4 @@
-﻿namespace Newsletter.Api.Shared;
+﻿namespace PsyPortrait.Bot.Shared;
 
 public class Result
 {

@@ -1,4 +1,6 @@
-﻿using PsyPortrait.Bot.Entities;
+﻿
+
+using PsyPortrait.Bot.Entities;
 
 namespace PsyPortrait.Domain.UnitTests.Person;
 
