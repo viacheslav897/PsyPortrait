@@ -5,16 +5,15 @@
 # .NET Core build folders
 bin/
 obj/
-
-# Common node modules locations
-/node_modules
-/wwwroot/node_modules
+**/bin/
+**/obj/
 
 # Stylecop
 /**/stylecop.*
 
 # Roslyn cache directories
 *.ide
+.idea/
 
 # User-specific files
 *.rsuser
