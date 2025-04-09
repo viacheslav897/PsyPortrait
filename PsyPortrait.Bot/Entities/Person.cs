@@ -20,6 +20,13 @@ public sealed class Person
     public Card FifthPosition { get; private set; }
     public Card SixthPosition { get; private set; }
 
+    public string Description => $"Position 1: {FirstPosition} \n" +
+                                 $"Position 2: {SecondPosition} \n" +
+                                 $"Position 3: {ThirdPosition} \n" +
+                                 $"Position 4: {FourthPosition} \n" +
+                                 $"Position 5: {FifthPosition} \n" +
+                                 $"Position 6: {SixthPosition} \n";
+
     private void CalculatePositions()
     {
         const int overflow = 22;

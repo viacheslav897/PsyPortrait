@@ -11,4 +11,6 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::F95054E4-8B65-4412-A6D5-8D989EAD2C43::net9.0::PsyPortrait.Domain.UnitTests.Person.PersonTests.Person_Should_CalculatePositions&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=PsyPortrait_002EBot_002FLocalization_002FStrings/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
