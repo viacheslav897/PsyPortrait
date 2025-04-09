@@ -28,6 +28,8 @@ PsyPortrait.Bot/obj
 local.settings.json
 local.settings.*.json
 appsettings.*.json
+appsettings.json
+launchSettings.json
 
 # Build results
 [Dd]ebug/
